@@ -19,7 +19,7 @@ namespace LoopGame
 
         public void DisplayInfo()
         {
-        Console.WriteLine($"You are checking the {Name}.");
+            Console.WriteLine($"You are checking the {Name}.");
             Console.WriteLine(Description);
             Console.WriteLine("press any key to continue");
             Console.ReadKey();
